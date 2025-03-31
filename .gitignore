@@ -1,0 +1,44 @@
+# Arquivos do Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.pdb
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.swp
+*.swo
+*.~*
+
+# Configurações do Streamlit
+.streamlit/
+secrets.toml
+
+# Ambientes virtuais
+venv/
+/venv/
+.env/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Dependências geradas
+*.egg-info/
+dist/
+build/
+
+# Banco de dados SQLite
+*.sqlite
+*.db
+*.sqlite3
+
+# Arquivos de cache e checkpoints
+.ipynb_checkpoints/
+__pycache__/
+
+# Configurações do IDE
+.vscode/
+.idea/
+*.code-workspace
